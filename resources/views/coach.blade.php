@@ -53,7 +53,7 @@
                         <li><a href="./bmi-calculator.html">Bmi calculate</a></li>
                         <li><a href="./team.html">Our team</a></li>
                         <li><a href="./gallery.html">Gallery</a></li>
-                        <li><a href="./blog.html">Our blog</a></li>
+                        <li><a href="./blog.html">Our blogs</a></li>
                         <li><a href="./404.html">404</a></li>
                     </ul>
                 </li>
@@ -128,7 +128,7 @@
             <div class="row">
                 <div class="ts-slider owl-carousel">
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/hero/gymbro-removebg-preview.png">
+                        <div class="ts-item set-bg" data-setbg="style/img/hero/gymbro-removebg-preview.png">
                             <div class="ts_text">
                                 <h4>Najmuzahir Munawar</h4>
                                 <span>Gym Trainer</span>
@@ -139,7 +139,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/hero/gymbro-removebg-preview.png">
+                        <div class="ts-item set-bg" data-setbg="style/img/hero/gymbro-removebg-preview.png">
                             <div class="ts_text">
                                 <h4>Roffi Nurfadillah</h4>
                                 <span>Gym Trainer</span>
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/hero/gymbro-removebg-preview.png">
+                        <div class="ts-item set-bg" data-setbg="style/img/hero/gymbro-removebg-preview.png">
                             <div class="ts_text">
                                 <h4>Deez Nut</h4>
                                 <span>Gym Trainer</span>
@@ -161,7 +161,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/hero/gymbro-removebg-preview.png">
+                        <div class="ts-item set-bg" data-setbg="style/img/hero/gymbro-removebg-preview.png">
                             <div class="ts_text">
                                 <h4>Fajar Zulfiansyah</h4>
                                 <span>Gym Trainer</span>
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/hero/gymbro-removebg-preview.png">
+                        <div class="ts-item set-bg" data-setbg="style/img/hero/gymbro-removebg-preview.png">
                             <div class="ts_text">
                                 <h4>Joe Mama</h4>
                                 <span>Gym Trainer</span>
@@ -184,7 +184,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="img/hero/gymbro-removebg-preview.png">
+                        <div class="ts-item set-bg" data-setbg="style/img/hero/gymbro-removebg-preview.png">
                             <div class="ts_text">
                                 <h4>Athart Rachel</h4>
                                 <span>Gym Trainer</span>
