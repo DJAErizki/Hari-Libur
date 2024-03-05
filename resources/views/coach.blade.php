@@ -69,6 +69,7 @@
     </div>
     <!-- Offcanvas Menu Section End -->
 
+    {{-- gog --}}
     <!-- Header Section Begin -->
     <header class="header-section">
         <div class="container-fluid">
