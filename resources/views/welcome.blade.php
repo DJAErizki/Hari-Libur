@@ -14,14 +14,14 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="style/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="style/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="style/css/flaticon.css" type="text/css">
-    <link rel="stylesheet" href="style/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="style/css/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="style/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="style/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="style/css/style.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/barfiller.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/slicknav.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" type="text/css">
 </head>
 
 <body>
@@ -106,7 +106,7 @@
     <!-- Hero Section Begin -->
     <section class="hero-section">
         <div class="hs-slider owl-carousel">
-            <div class="hs-item set-bg" data-setbg="style/img/hero/hero-1.jpg">
+            <div class="hs-item set-bg" data-setbg="{{ asset('assets/img/hero/hero-1.jpg') }}">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-6">
@@ -183,7 +183,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="class-item">
                         <div class="ci-pic">
-                            <img src="style/img/classes/class-4.jpg" alt="">
+                            <img src="{{ asset('assets/img/classes/class-4.jpg') }}" alt="">
                         </div>
                         <div class="ci-text">
                             <span>Strength</span>
@@ -195,7 +195,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="class-item">
                         <div class="ci-pic">
-                            <img src="style/img/classes/calis.jpg" alt="">
+                            <img src="{{ asset('assets/img/classes/calis.jpg') }}" alt="">
                         </div>
                         <div class="ci-text">
                             <span>Agility</span>
@@ -210,14 +210,14 @@
     <!-- ChoseUs Section End -->
 
     <!-- Banner Section Begin -->
-    <section class="banner-section set-bg" data-setbg="style/img/banner-bg.jpg">
+    <section class="banner-section set-bg" data-setbg="{{ asset('assets/img/banner-bg.jpg') }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="bs-text">
                         <h2>daftar sekarang</h2>
                         <div class="bt-tips">dimana sehat dan keindahanya bertemu</div>
-                        <a href="#" class="primary-btn  btn-normal">Register</a>
+                        <a href="{{url('login')}}" class="primary-btn  btn-normal">Register</a>
                     </div>
                 </div>
             </div>
@@ -242,7 +242,7 @@
             <div class="row">
                 <div class="ts-slider owl-carousel">
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="style/img/team/profile.png">
+                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/team/profile.png') }}">
                             <div class="ts_text">
                                 <h4>Najmuzahir Munawar</h4>
                                 <span>Gym Trainer</span>
@@ -250,7 +250,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="style/img/team/profile.png">
+                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/team/profile.png') }}">
                             <div class="ts_text">
                                 <h4>Roffi Nurfadillah</h4>
                                 <span>Gym Trainer</span>
@@ -258,7 +258,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="style/img/team/profile.png">
+                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/team/profile.png') }}">
                             <div class="ts_text">
                                 <h4>Deez Nut</h4>
                                 <span>Gym Trainer</span>
@@ -266,7 +266,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="style/img/team/profile.png">
+                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/team/profile.png') }}">
                             <div class="ts_text">
                                 <h4>Fajar Zulfiansyah</h4>
                                 <span>Gym Trainer</span>
@@ -275,7 +275,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="style/img/team/profile.png">
+                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/team/profile.png') }}">
                             <div class="ts_text">
                                 <h4>Joe Mama</h4>
                                 <span>Gym Trainer</span>
@@ -283,7 +283,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="style/img/team/profile.png">
+                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/team/profile.png') }}">
                             <div class="ts_text">
                                 <h4>Athart Rachel</h4>
                                 <span>Gym Trainer</span>
@@ -338,17 +338,14 @@
     <!-- Search model end -->
 
     <!-- Js Plugins -->
-    <script src="style/js/jquery-3.3.1.min.js"></script>
-    <script src="style/js/bootstrap.min.js"></script>
-    <script src="style/js/jquery.magnific-popup.min.js"></script>
-    <script src="style/js/masonry.pkgd.min.js"></script>
-    <script src="style/js/jquery.barfiller.js"></script>
-    <script src="style/js/jquery.slicknav.js"></script>
-    <script src="style/js/owl.carousel.min.js"></script>
-    <script src="style/js/main.js"></script>
-
-
+    <script src="{{ asset('assets/js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/masonry.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.barfiller.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.slicknav.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
-
 </html>
