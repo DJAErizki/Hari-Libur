@@ -42,7 +42,7 @@
         <nav class="canvas-menu mobile-menu">
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="{{url('about')}}">About Us</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li><a href="./classes.html">Classes</a></li>
                 <li><a href="./services.html">Services</a></li>
                 <li><a href="./team.html">Our Team</a></li>
@@ -53,7 +53,7 @@
                         <li><a href="./bmi-calculator.html">Bmi calculate</a></li>
                         <li><a href="./team.html">Our team</a></li>
                         <li><a href="./gallery.html">Gallery</a></li>
-                        <li><a href="./blog.html">Our blogs</a></li>
+                        <li><a href="./blog.html">Our blog</a></li>
                         <li><a href="./404.html">404</a></li>
                     </ul>
                 </li>
@@ -69,7 +69,6 @@
     </div>
     <!-- Offcanvas Menu Section End -->
 
-    {{-- gog --}}
     <!-- Header Section Begin -->
     <header class="header-section">
         <div class="container-fluid">
@@ -85,9 +84,9 @@
                     <nav class="nav-menu">
                         <ul>
                             <li><a href="{{url('welcome')}}">Home</a></li>
-                            <li><a href="{{url('about')}}">About</a></li>
+                            <li class="active"><a href="{{route('about')}}">About</a></li>
                             <li><a href="./class-details.html">Program</a></li>
-                            <li class="active"><a href="{{route('coach')}}">Coach</a></li>
+                            <li><a href="{{url('coach')}}">Coach</a></li>
                             <li><a href="#">Gear</a></li>
                             </li>
                         </ul>
@@ -110,87 +109,18 @@
         </div>
     </header>
     <!-- Header End -->
-    {{-- RWRWRWRWR --}}
-    <!-- Team Section Begin -->
-    <section class="team-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="team-title">
-                        <div class="section-title">
-                            <span>Tim Kami</span>
-                            <h2>TRAIN WITH EXPERTS</h2>
-                        </div>
 
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="ts-slider owl-carousel">
-                    <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/hero/gymbro-removebg-preview.png') }}">
-                            <div class="ts_text">
-                                <h4>Najmuzahir Munawar</h4>
-                                <span>Gym Trainer</span>
-                                <h5>
-                                    <a href="{{url('profnaz')}}">view</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/hero/gymbro-removebg-preview.png') }}">
-                            <div class="ts_text">
-                                <h4>Roffi Nurfadillah</h4>
-                                <span>Gym Trainer</span>
-                                <h5>
-                                    <a href="profil_roffi">view</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/hero/gymbro-removebg-preview.png') }}">
-                            <div class="ts_text">
-                                <h4>Deez Nut</h4>
-                                <span>Gym Trainer</span>
-                                <h5>
-                                    <a href="profil_dz">view</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/hero/gymbro-removebg-preview.png') }}">
-                            <div class="ts_text">
-                                <h4>Fajar Zulfiansyah</h4>
-                                <span>Gym Trainer</span>
+    <!-- Hero Section Begin -->
+    <section class="hero-section">
+        <div class="hs-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="{{ asset('assets/img/hero/hero-1.jpg') }}">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-6">
+                            <div class="hi-text " style=" width: 700px;">
+                                <h2><span>upgrade your body</span></h2>
+                                <h1><strong>we are</strong> gym enthausiast let's build together</h1>
 
-                                <h5>
-                                    <a href="profil_fajar">view</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/hero/gymbro-removebg-preview.png') }}">
-                            <div class="ts_text">
-                                <h4>Joe Mama</h4>
-                                <span>Gym Trainer</span>
-                                <h5>
-                                    <a href="profil_joe">view</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="ts-item set-bg" data-setbg="{{ asset('assets/img/hero/gymbro-removebg-preview.png') }}">
-                            <div class="ts_text">
-                                <h4>Athart Rachel</h4>
-                                <span>Gym Trainer</span>
-                                <h5>
-                                    <a href="profil_atar">view</a>
-                                </h5>
                             </div>
                         </div>
                     </div>
@@ -198,7 +128,7 @@
             </div>
         </div>
     </section>
-    <!-- Team Section End -->
+
 
     <!-- Get In Touch Section Begin -->
     <div class="gettouch-section">
@@ -228,7 +158,6 @@
             </div>
         </div>
     </div>
-    <!-- Get In Touch -->
     <!-- Get In Touch Section End -->
 
     <!-- Search model Begin -->
@@ -240,6 +169,7 @@
             </form>
         </div>
     </div>
+
     <!-- Search model end -->
 
     <!-- Js Plugins -->
@@ -251,6 +181,7 @@
     <script src="{{ asset('assets/js/jquery.slicknav.js') }}"></script>
     <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
+
 
 
 </body>

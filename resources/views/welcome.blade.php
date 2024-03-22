@@ -77,9 +77,9 @@
                     <nav class="nav-menu">
                         <ul>
                             <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
+                            <li><a href="{{url('about')}}">About</a></li>
                             <li><a href="./class-details.html">Program</a></li>
-                            <li><a href="{{ route("coach") }}">Coach</a></li>
+                            <li><a href="{{url('coach')}}">Coach</a></li>
                             <li><a href="#">Gear</a></li>
                             </li>
                         </ul>
